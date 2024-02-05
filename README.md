@@ -7,7 +7,7 @@ Using [NvChad](https://github.com/NvChad/NvChad) because I don't want to manuall
 
 ## ZSH
 
-[Antidote](https://github.com/mattmc3/antidote) for fast ZSH plugin management and ease. Super easy to add plugins through the `.zsh_plugins.txt` file and not really think twice. Currently using the [Pure](https://github.com/sindresorhus/pure) prompt and minimal other config through [zsh-utils](https://github.com/belak/zsh-utils).
+[Antidote](https://github.com/mattmc3/antidote) for fast ZSH plugin management and ease. Super easy to add plugins through the `.zsh_plugins.txt` file and not really think twice. Currently using the [Pure](https://github.com/sindresorhus/pure) prompt and minimal other config through [zsh-utils](https://github.com/belak/zsh-utils) and [zsh-users](https://github.com/zsh-users) plugins.
 
 ## Alacritty
 
