@@ -1,8 +1,12 @@
-# Carson: My environment vars
+# My environment vars
 EDITOR=/bin/nvim
 # For TMUX color to work
 TERM=xterm-256color
 
+# Source Antidote Plugin Manager
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
-
 antidote load
+
+# fnm
+export PATH="/home/carson/.fnm:$PATH"
+eval "`fnm env`"

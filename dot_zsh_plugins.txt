@@ -7,3 +7,4 @@ belak/zsh-utils path:completion
 
 zsh-users/zsh-autosuggestions
 # spaceship-prompt/spaceship-prompt
+sindresorhus/pure
