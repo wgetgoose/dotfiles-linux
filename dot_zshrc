@@ -1,5 +1,7 @@
-# allow for regular wildcard usage with zsh
-setopt extended_glob
+# Carson: My environment vars
+EDITOR=/bin/nvim
+# For TMUX color to work
+TERM=xterm-256color
 
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 

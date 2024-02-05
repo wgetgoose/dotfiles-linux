@@ -6,4 +6,4 @@ belak/zsh-utils path:utility
 belak/zsh-utils path:completion
 
 zsh-users/zsh-autosuggestions
-spaceship-prompt/spaceship-prompt
+# spaceship-prompt/spaceship-prompt
