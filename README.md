@@ -1,5 +1,5 @@
 # Dotfiles
-A set of dotfiles for NeoVim, ZSH, Alacritty, and the like managed using [chezmoi](https://github.com/twpayne/chezmoi). Designed for linux systems and tested on Fedora 39.
+A set of dotfiles for NeoVim, ZSH, Alacritty, and the like managed using [chezmoi](https://github.com/twpayne/chezmoi). `chezmoi` is the reason that the files are named `dot_zshrc` instead of `.zshrc`. Designed for linux systems and tested on Fedora 39.
 
 ## NeoVim
 
