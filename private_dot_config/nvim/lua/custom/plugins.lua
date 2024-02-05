@@ -39,6 +39,16 @@ local plugins = {
   },
 
   {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && npm install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
+
+  {
     "stevearc/conform.nvim",
     --  for users those who want auto-save conform + lazyloading!
     -- event = "BufWritePre"
