@@ -1,0 +1,6 @@
+# allow for regular wildcard usage with zsh
+setopt extended_glob
+
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+
+antidote load

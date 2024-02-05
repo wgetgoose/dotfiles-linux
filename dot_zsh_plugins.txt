@@ -1,0 +1,9 @@
+# using zsh-utils for now
+belak/zsh-utils path:editor
+belak/zsh-utils path:history
+belak/zsh-utils path:prompt
+belak/zsh-utils path:utility
+belak/zsh-utils path:completion
+
+zsh-users/zsh-autosuggestions
+spaceship-prompt/spaceship-prompt
