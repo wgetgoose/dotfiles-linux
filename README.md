@@ -3,7 +3,8 @@ A set of dotfiles for NeoVim, ZSH, Alacritty, and the like managed using [chezmo
 
 ## NeoVim
 
-Using [NvChad](https://github.com/NvChad/NvChad) because I don't want to manually manage a bunch of separate vim plugins and configurations. At some point I'll dive into lua and the whole nine, but not right now.
+Using [LazyVim](https://github.com/LazyVim/LazyVim) because I don't want to manually manage a bunch of separate vim plugins and configurations. 
+At some point I'll dive into lua and the whole nine, but not right now.
 
 ## ZSH
 
