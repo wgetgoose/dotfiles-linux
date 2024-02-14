@@ -12,7 +12,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 
+-- set vim options with local variable
+local opt = vim.opt
 -- Change default tab spacing 
-vim.opt.shiftwidth = 2
--- Relative Number
-vim.opt.relativenumber = true
+opt.shiftwidth = 2
+-- Relative Line Number
+opt.relativenumber = true
+-- Use system clipboard
+opt.clipboard = "unnamedplus"
+
