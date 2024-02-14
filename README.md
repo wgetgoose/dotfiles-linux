@@ -3,8 +3,8 @@ A set of dotfiles for NeoVim, ZSH, Alacritty, and the like managed using [chezmo
 
 ## NeoVim
 
-Using [LazyVim](https://github.com/LazyVim/LazyVim) because I don't want to manually manage a bunch of separate vim plugins and configurations. 
-At some point I'll dive into lua and the whole nine, but not right now.
+Using [lazy.nvim](https://github.com/folke/lazy.nvim) for easy plugin loading. I tried LazyVim and NVChad bundles, but they came with too many 
+plugins which became overwhelming. Still a work in progress, so plugins aren't listed. 
 
 ## ZSH
 
