@@ -17,3 +17,7 @@ antidote load
 # fnm
 export PATH="/home/carson/.fnm:$PATH"
 eval "`fnm env`"
+
+# enable completions for nb
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
