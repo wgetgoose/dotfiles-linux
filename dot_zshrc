@@ -25,3 +25,6 @@ eval "`fnm env`"
 # enable completions for nb: see https://github.com/xwmx/nb/blob/master/etc/README.md
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
+
+# Quick, dirty, and insecure bin folder in home
+export PATH="$PATH:/home/carson/bin"
