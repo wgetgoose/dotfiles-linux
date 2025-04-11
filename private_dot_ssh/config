@@ -1,0 +1,24 @@
+Host gilga_only
+    HostName 10.0.0.0
+    user root
+    IdentityFile ~/.ssh/onlykey_noverify_oct-03-2024
+Host gilga_solo
+    HostName 10.0.0.0
+    user root
+    IdentityFile ~/.ssh/solokey_noverify_feb-26-2024
+Host hades_only
+    HostName 10.0.0.2
+    user carson
+    IdentityFile ~/.ssh/onlykey_noverify_oct-03-2024
+Host hades_solo
+    HostName 10.0.0.2
+    user carson
+    IdentityFile ~/.ssh/solokey_noverify_feb-26-2024
+Host hades_yubi
+    HostName 10.0.0.2
+    user carson
+    IdentityFile ~/.ssh/yubikey_verify_apr-10-2025
+Host gilga_yubi 
+    HostName 10.0.0.0
+    user root 
+    IdentityFile ~/.ssh/yubikey_verify_apr-10-2025
