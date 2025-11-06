@@ -1,0 +1,7 @@
+{
+    "security.workspace.trust.enabled": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true
+}
