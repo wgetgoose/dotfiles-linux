@@ -1,14 +1,11 @@
 # My environment vars
-EDITOR=/bin/nvim
+EDITOR=/usr/bin/codium
 BROWSER=firefox.desktop
 # For TMUX color to work
 TERM=xterm-256color
 
 # For Qt5CT, qt settings
 QT_QPA_PLATFORMTHEME=qt5ct
-
-# Fabric: see https://github.com/danielmiessler/fabric/tree/main
-# alias fabric="~/coding/fabric/client/fabric"
 
 # pbCopy and pbPaste
 alias pbcopy='xclip -selection clipboard'
@@ -18,13 +15,9 @@ alias pbpaste='xclip -selection clipboard -o'
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
 
-# fnm
+# fnm: nodejs version manager
 export PATH="/home/carson/.fnm:$PATH"
 eval "`fnm env`"
-
-# enable completions for nb: see https://github.com/xwmx/nb/blob/master/etc/README.md
-fpath=(~/.zsh/completion $fpath)
-autoload -Uz compinit && compinit -i
 
 # Quick, dirty, and insecure bin folder in home
 export PATH="$PATH:/home/carson/bin"

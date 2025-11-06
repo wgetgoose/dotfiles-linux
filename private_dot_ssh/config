@@ -22,3 +22,13 @@ Host gilga_yubi
     HostName 10.0.0.0
     user root 
     IdentityFile ~/.ssh/yubikey_verify_apr-10-2025
+Host hades_solo_local
+    HostName 192.168.8.10
+    user carson
+    IdentityFile ~/.ssh/solokey_noverify_feb-26-2024
+Host hades_solo_local_root
+    HostName 192.168.8.10
+    user root 
+    IdentityFile ~/.ssh/solokey_noverify_feb-26-2024
+
+
